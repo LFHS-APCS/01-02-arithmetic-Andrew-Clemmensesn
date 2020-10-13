@@ -5,6 +5,7 @@ public class Temperature
      */
     public double convertTemperature(double celsius)
     {
-        return 0.0;
+        double c = scan.nextDouble();
+        return 9 * c / 5 + 32;
     }
 }
